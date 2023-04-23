@@ -70,3 +70,23 @@ section .comment {
     color: red;
     margin-left: 70px;
 }
+
+.newThreadWrapper {
+    background-color: #b3eeb3;
+    padding: 10px;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 20px;   
+}
+
+.newChildThreadWrapper {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.newChildThreadWrapper button a {
+    width: 150px;
+    color: black;
+    text-decoration: none;
+}
