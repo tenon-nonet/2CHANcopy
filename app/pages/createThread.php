@@ -44,7 +44,7 @@ include("../../app/functions/thread_add.php");
             <textarea name="body" class="commentTextArea"></textarea>
         </div>
         <input type="submit" value="Create" name="threadSubmitButton">
-        <input type="button" onclick="history.back()" value="Back">
+        <button><a href="../../index.php">Back</a></button>
     </form>
 
 
