@@ -26,12 +26,21 @@ include("../../app/functions/thread_add.php");
     </div>
     <form method="POST" class="formWrapper">
         <div>
-            <label>Thread name</label>
+            <div>
+            <label style="color: white;">Thread name</label>
             <input type="text" name="title">
-            <label>Your name</label>
+            </div>
+            <br>
+            <div>
+            <label style="color: white;">Your name</label>
             <input type="text" name="username">
+            </div>
         </div>
+        <br>
         <div>
+            <div style="color: white;">
+                <label>First comment</label>
+            </div>
             <textarea name="body" class="commentTextArea"></textarea>
         </div>
         <input type="submit" value="Create" name="threadSubmitButton">
