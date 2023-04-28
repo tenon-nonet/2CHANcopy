@@ -21,7 +21,7 @@ include("../../app/functions/thread_add.php");
     <?php include("../../app/parts/header.php") ?>
     <?php include("../../app/parts/validation.php") ?>
 
-    <div style="padding-left: 36px; color: blue;">
+    <div style="padding-left: 36px; color: white;">
         <h2 style="margin-top: 20px; margin-bottom: 0;">Create New Thread</h2>
     </div>
     <form method="POST" class="formWrapper">
@@ -35,6 +35,7 @@ include("../../app/functions/thread_add.php");
             <textarea name="body" class="commentTextArea"></textarea>
         </div>
         <input type="submit" value="Create" name="threadSubmitButton">
+        <input type="button" onclick="history.back()" value="Back">
     </form>
 
 

@@ -1,9 +1,12 @@
 body{
-    background-color: #a6c1dc;
+    /* background-image: url(http://127.0.0.1:7860/file=/private/var/folders/vs/g6lz35nn57n5jr1_c7nl2bgh0000gn/T/ffa0f72b18515e522c200e9ca34db90022f50f09/00044-1800768711.png); */
+    background-color: #3d31a9;
+    background-size: contain;
 }
 
 .title{
     text-align: center;
+    color: #f3eded;
     font-size: 34px;
 }
 
