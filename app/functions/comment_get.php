@@ -1,7 +1,7 @@
 <?php
 $comment_array = array();
 
-// コメントデータ尾をてーぶるから取得
+// コメントデータをテーブルから取得
 $sql = "SELECT * FROM comment";
 $statement = $pdo->prepare($sql);
 $statement->execute();

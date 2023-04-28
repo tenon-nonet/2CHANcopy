@@ -1,5 +1,5 @@
 body{
-    background-color: #dcc0a6;
+    background-color: #a6c1dc;
 }
 
 .title{
@@ -30,7 +30,7 @@ body{
 }
 
 .threadTitle h1{
-    color: red;
+    color: rgb(8, 0, 255);
     margin-left: 3px;
     font-size: 27px;
 }
@@ -46,7 +46,7 @@ section .nameArea {
 }
 
 section .username {
-    color: green;
+    color: rgb(29, 116, 49);
     font-weight: 700;
 }
 
@@ -72,7 +72,7 @@ section .comment {
 }
 
 .newThreadWrapper {
-    background-color: #b3eeb3;
+    background-color: #6167db;
     padding: 10px;
     max-width: 1300px;
     margin: 0 auto;

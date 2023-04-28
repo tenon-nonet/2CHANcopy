@@ -3,7 +3,7 @@
 $error_message = array();
 
 if (isset($_POST["threadSubmitButton"])) {
-    // 名前にゅうりょくチェック
+    // 名前入力チェック
     if (empty($_POST["title"])) {
         $error_message["title"] = "お名前を入力してください";
     } else {

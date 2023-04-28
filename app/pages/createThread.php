@@ -13,7 +13,7 @@ include("../../app/functions/thread_add.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>新規スレッド作成ページ</title>
+    <title>Create New Thread</title>
     <link rel="stylesheet" href="../../assets/style.css">
 </head>
 
@@ -22,19 +22,19 @@ include("../../app/functions/thread_add.php");
     <?php include("../../app/parts/validation.php") ?>
 
     <div style="padding-left: 36px; color: blue;">
-        <h2 style="margin-top: 20px; margin-bottom: 0;">新規スレッド立ち上げ場</h2>
+        <h2 style="margin-top: 20px; margin-bottom: 0;">Create New Thread</h2>
     </div>
     <form method="POST" class="formWrapper">
         <div>
-            <label>スレッド名</label>
+            <label>Thread name</label>
             <input type="text" name="title">
-            <label>名前</label>
+            <label>Your name</label>
             <input type="text" name="username">
         </div>
         <div>
             <textarea name="body" class="commentTextArea"></textarea>
         </div>
-        <input type="submit" value="立ち上げ" name="threadSubmitButton">
+        <input type="submit" value="Create" name="threadSubmitButton">
     </form>
 
 
