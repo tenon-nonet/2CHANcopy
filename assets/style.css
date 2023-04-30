@@ -1,16 +1,16 @@
-body{
+body {
     /* background-image: url(http://127.0.0.1:7860/file=/private/var/folders/vs/g6lz35nn57n5jr1_c7nl2bgh0000gn/T/ffa0f72b18515e522c200e9ca34db90022f50f09/00044-1800768711.png); */
     background-color: #3d31a9;
     background-size: contain;
 }
 
-.title{
+.title {
     text-align: center;
     color: #f3eded;
     font-size: 34px;
 }
 
-.threadWrapper{
+.threadWrapper {
     background-color: #f3eded;
     padding: 10px;
     max-width: 1300px;
@@ -19,12 +19,12 @@ body{
     margin-bottom: 20px;
 }
 
-.childWrapper{
+.childWrapper {
     border: 1px solid black;
     padding: 10px;
 }
 
-.threadTitle{
+.threadTitle {
     display: flex;
     align-items: center;
     font-weight: 600;
@@ -32,13 +32,13 @@ body{
     height: 60px;
 }
 
-.threadTitle h1{
+.threadTitle h1 {
     color: rgb(8, 0, 255);
     margin-left: 3px;
     font-size: 27px;
 }
 
-section{
+section {
     padding: 0 10px;
 }
 
@@ -58,18 +58,18 @@ section .comment {
     margin-left: 20px;
 }
 
-.formWrapper{
+.formWrapper {
     padding: 16px;
     margin-left: 20px;
 }
 
-.commentTextArea{
+.commentTextArea {
     margin-top: 10px;
     width: 500px;
     height: 90px;
 }
 
-.errorMessage{
+.errorMessage {
     color: red;
     margin-left: 70px;
 }
@@ -79,7 +79,7 @@ section .comment {
     padding: 10px;
     max-width: 1300px;
     margin: 0 auto;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
 
 .newChildThreadWrapper {

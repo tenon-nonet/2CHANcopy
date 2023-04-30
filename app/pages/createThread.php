@@ -27,13 +27,13 @@ include("../../app/functions/thread_add.php");
     <form method="POST" class="formWrapper">
         <div>
             <div>
-            <label style="color: white;">Thread name</label>
-            <input type="text" name="title">
+                <label style="color: white;">Thread name</label>
+                <input type="text" name="title">
             </div>
             <br>
             <div>
-            <label style="color: white;">Your name</label>
-            <input type="text" name="username">
+                <label style="color: white;">Your name</label>
+                <input type="text" name="username">
             </div>
         </div>
         <br>

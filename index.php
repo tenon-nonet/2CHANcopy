@@ -21,8 +21,6 @@ include_once("./app/database/connect.php");
     <?php include("app/parts/validation.php") ?>
     <?php include("app/parts/thread.php") ?>
     <?php include("app/parts/newThreadButton.php") ?>
-
-
 </body>
 
 </html>

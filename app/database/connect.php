@@ -8,8 +8,4 @@ try {
 } catch (PDOException $error) {
     echo $error->getMessage();
 }
-
 // DBと接続
-
-
-?>

@@ -11,7 +11,7 @@ if (isset($_POST["submitButton"])) {
     <div>
         <input type="submit" value="Post" name="submitButton">
         <label>Name</label>
-        <input type="text" name="username" value="<?php  if ($thread["id"] == $comment["thread_id"]) echo $_SESSION["username"] ?>">
+        <input type="text" name="username" value="<?php if ($thread["id"] == $comment["thread_id"]) echo $_SESSION["username"] ?>">
         <input type="hidden" name="threadID" value="<?php echo $thread["id"]; ?>">
     </div>
     <div>
