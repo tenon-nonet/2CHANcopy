@@ -1,13 +1,9 @@
 <?php
-
 include_once("../database/connect.php");
 include("../../app/functions/thread_add.php");
-
 ?>
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
@@ -46,8 +42,6 @@ include("../../app/functions/thread_add.php");
         <input type="submit" value="Create" name="threadSubmitButton">
         <button><a href="../../index.php">Back</a></button>
     </form>
-
-
 </body>
 
 </html>
