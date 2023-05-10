@@ -1,7 +1,6 @@
 <?php
 include("app/functions/comment_get.php");
 ?>
-
 <section>
     <?php foreach ($comment_array as $comment) : ?>
         <!-- スレッドのidとコメントのthread_idが一致した時 -->
@@ -18,5 +17,5 @@ include("app/functions/comment_get.php");
                 </div>
             </article>
         <?php endif; ?>
-    <?php endforeach ?>
+    <?php endforeach; ?>
 </section>
