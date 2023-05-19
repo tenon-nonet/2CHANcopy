@@ -11,6 +11,7 @@ include("../../app/functions/thread_add.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create New Thread</title>
     <link rel="stylesheet" href="../../assets/style.css">
+    <link rel="stylesheet" href="../../assets/styleSmart.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@ include("../../app/functions/thread_add.php");
     <?php include("../../app/parts/validation.php") ?>
 
     <div style="padding-left: 36px; color: white;">
-        <h2 style="margin-top: 20px; margin-bottom: 0;">Create New Thread</h2>
+        <h2 class="threadName" style="margin-top: 20px; margin-bottom: 0;">Create New Thread</h2>
     </div>
     <form method="POST" class="formWrapper">
         <div>

@@ -1,5 +1,6 @@
 @media screen and (max-width: 480px) {
-/* 全体 */
+
+    /* 全体 */
     body {
         background-color: #3d31a9;
         background-size: contain;
@@ -17,7 +18,7 @@
         font-size: 1px;
     }
 
-/* index */
+    /* index */
     .threadWrapper {
         background-color: #f3eded;
         padding: 3px;
@@ -35,7 +36,6 @@
     .threadTitle {
         display: flex;
         align-items: center;
-        font-weight: ;
         margin-left: 6px;
         height: 30px;
         font-size: 3px;
@@ -81,6 +81,16 @@
         max-height: 90px;
     }
 
+    .namePost {
+        font-size: 5px;
+        width:50px
+    }
+
+    .buttonPost
+{
+   font-size: 3px;
+}
+
     .errorMessage {
         color: red;
         margin-left: 70px;
@@ -108,3 +118,5 @@
     }
 
 }
+
+/* create page */

@@ -6,14 +6,20 @@ if (isset($_POST["submitButton"])) {
 ?>
 <form class="formWrapper" method="POST">
     <div>
-        <input type="submit" value="Post" name="submitButton">
+        <input class="buttonPost" type="submit" value="Post" name="submitButton">
         <label>Name</label>
-        <input type="text" name="username" value="<?php if ($thread["id"] == $comment["thread_id"]) echo $_SESSION["username"] ?>">
+        <style>
+            label {
+                font-size: 5px;
+            }
+        </style>
+        <input class="namePost" type="text" name="username" value="<?php if ($thread["id"] == $comment["thread_id"]) echo $_SESSION["username"] ?>">
         <input type="hidden" name="threadID" value="<?php echo $thread["id"]; ?>">
     </div>
     <div>
         <textarea class="commentTextArea" name="body"></textarea>
     </div>
+
     <!-- 位置取得用 -->
     <input type="hidden" name="position" value="0">
 </form>
