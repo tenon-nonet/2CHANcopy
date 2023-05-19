@@ -1,8 +1,12 @@
 <?php
+
 include_once("./app/database/connect.php");
+
 ?>
+
+
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,13 +14,14 @@ include_once("./app/database/connect.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SDPs Threads</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/styleSmart.css">
 </head>
 
 <body>
-    <?php include("app/parts/header.php"); ?>
-    <?php include("app/parts/validation.php"); ?>
-    <?php include("app/parts/thread.php"); ?>
-    <?php include("app/parts/newThreadButton.php"); ?>
+    <?php include("app/parts/header.php") ?>
+    <?php include("app/parts/validation.php") ?>
+    <?php include("app/parts/thread.php") ?>
+    <?php include("app/parts/newThreadButton.php") ?>
 </body>
 
 </html>

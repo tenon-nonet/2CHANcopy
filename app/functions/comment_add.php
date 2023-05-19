@@ -2,7 +2,6 @@
 $error_message = array();
 
 session_start();
-
 if (isset($_POST["submitButton"])) {
     // 名前にゅうりょくチェック
     if (empty($_POST["username"])) {
