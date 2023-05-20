@@ -9,7 +9,6 @@ html {
     box-sizing: inherit;
 }
 
-
 .nav-list {
     display: flex;
     justify-content: space-around;
@@ -33,11 +32,22 @@ body {
     background-size: contain;
 }
 
-.title {
+.title{
     text-align: center;
     color: #f3eded;
     font-size: 34px;
 
+}
+
+.hero title h1{
+    text-align: center;
+    color: #f3eded;
+    font-size: 34px;
+
+}
+
+.hero title h1:hover {
+    color: #ccc;
 }
 
 .subTitle {
