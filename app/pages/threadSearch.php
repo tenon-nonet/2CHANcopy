@@ -19,7 +19,7 @@ include("../../app/functions/thread_add.php");
     <?php include("../../app/parts/validation.php") ?>
 
     <div style="padding-left: 36px; color: white;">
-        <h2 class="threadName" style="margin-top: 20px; margin-bottom: 0;">Create New Thread</h2>
+        <h2 class="threadName" style="margin-top: 20px; margin-bottom: 0;">Search A Thread</h2>
     </div>
     <form method="POST" class="formWrapper">
         <div>
@@ -27,22 +27,16 @@ include("../../app/functions/thread_add.php");
                 <label style="color: white;">Thread name</label>
                 <input type="text" name="title">
             </div>
-            <br>
-            <div>
-                <label style="color: white;">Your name</label>
-                <input type="text" name="username">
-            </div>
         </div>
         <br>
-        <div>
-            <div style="color: white;">
-                <label>First comment</label>
-            </div>
-            <textarea name="body" class="commentTextArea"></textarea>
-        </div>
-        <input type="submit" value="Create" name="threadSubmitButton">
-        <button><a href="../../index.php">Back</a></button>
+       
+        <input type="submit" value="Search!" name="threadSearchButton">
+        <br>
+        <input type="submit" value="Random!" name="threadRandomButton">
+        <br>
+        <button><a href="/index.php">Back</a></button>
     </form>
+    <img class="searchImg" src="https://nonet3.files.wordpress.com/2023/05/00004-1349217655-removebg-preview-1.png?w=500" alt="">
 </body>
 
 </html>

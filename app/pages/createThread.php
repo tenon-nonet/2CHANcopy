@@ -19,7 +19,7 @@ include("../../app/functions/thread_add.php");
     <?php include("../../app/parts/validation.php") ?>
 
     <div style="padding-left: 36px; color: white;">
-        <h2 class="threadName" style="margin-top: 20px; margin-bottom: 0;">Create New Thread</h2>
+        <h2 class="threadName" style="margin-top: 20px; margin-bottom: 0;">Create A Thread</h2>
     </div>
     <form method="POST" class="formWrapper">
         <div>
@@ -41,8 +41,9 @@ include("../../app/functions/thread_add.php");
             <textarea name="body" class="commentTextArea"></textarea>
         </div>
         <input type="submit" value="Create" name="threadSubmitButton">
-        <button><a href="../../index.php">Back</a></button>
+        <button><a href="/index.php">Back</a></button>
     </form>
+    <img class="createThreadImg" src="https://nonet3.files.wordpress.com/2023/05/00047-2603230323-removebg-preview.png?w=500" alt="画像でない、、">
 </body>
 
 </html>

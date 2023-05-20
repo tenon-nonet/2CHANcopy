@@ -135,3 +135,12 @@ section .comment {
     text-decoration: none;
 }
 
+.createThreadImg{
+    margin-top: 50px;
+    width: 200px;
+}
+
+.searchImg{
+    margin-top: 50px;
+    width: 200px;
+}
