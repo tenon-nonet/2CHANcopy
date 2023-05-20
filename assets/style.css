@@ -9,25 +9,6 @@ html {
     box-sizing: inherit;
 }
 
-/* 上タブ */
-.home-nav-list{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    font: 30px;
-
-}
-
-.home-nav-list li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 30px;
-}
-
-nav {
-    padding: 2px;
-    margin-bottom: px;
-}
 
 .nav-list {
     display: flex;
@@ -56,6 +37,7 @@ body {
     text-align: center;
     color: #f3eded;
     font-size: 34px;
+    
 }
 
 .subTitle {

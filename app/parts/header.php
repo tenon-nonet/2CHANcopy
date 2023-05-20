@@ -6,6 +6,7 @@
             <li><a href="/app/pages/threadSearch.php">Search A Thread</a></li>
         </ul>
     </nav>
+    <hr>
     <div class="hero">
         <h1 class="title"><a href="/index.php" style="color: white; text-decoration: none;">SDPs Threads</h1></a>
         <hr>
