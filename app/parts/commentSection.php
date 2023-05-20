@@ -1,5 +1,5 @@
 <?php
-include("app/functions/comment_get.php");
+include("../functions/comment_get.php");
 ?>
 <section>
     <?php foreach ($comment_array as $comment) : ?>

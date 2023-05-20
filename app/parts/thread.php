@@ -1,7 +1,7 @@
 <?php
-include_once("./app/database/connect.php");
-include("app/functions/comment_add.php");
-include("app/functions/thread_get.php");
+include_once("../database/connect.php");
+include("../functions/comment_add.php");
+include("../functions/thread_get.php");
 ?>
 
 <?php foreach ($thread_array as $thread) : ?>

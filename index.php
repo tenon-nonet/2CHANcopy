@@ -15,12 +15,20 @@ include_once("./app/database/connect.php");
 </head>
 
 <body>
-</html>
 
-    <?php include("app/parts/header.php") ?>
-    <?php include("app/parts/validation.php") ?>
-    <?php include("app/parts/thread.php") ?>
-    <?php include("app/parts/newThreadButton.php") ?>
+</html>
+<div class="hero">
+    <h1 class="title">SDPs Threads</h1>
+    <hr>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="/app/pages/threadPage.php">Go Threads</a></li>
+            <li><a href="/app/pages/createThread.php">Create A Thread</a></li>
+            <li><a href="/app/pages/threadSearch.php">Search A Thread</a></li>
+        </ul>
+    </nav>
+    <hr>
+</div>
 </body>
 
 </html>
