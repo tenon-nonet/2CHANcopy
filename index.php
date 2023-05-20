@@ -1,9 +1,6 @@
 <?php
-
 include_once("./app/database/connect.php");
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,6 +15,8 @@ include_once("./app/database/connect.php");
 </head>
 
 <body>
+</html>
+
     <?php include("app/parts/header.php") ?>
     <?php include("app/parts/validation.php") ?>
     <?php include("app/parts/thread.php") ?>

@@ -14,6 +14,7 @@ if (isset($_POST["submitButton"])) {
             }
         </style>
         <input class="namePost" type="text" name="username" value="<?php if ($thread["id"] == $comment["thread_id"]) echo $_SESSION["username"] ?>">
+
         <input type="hidden" name="threadID" value="<?php echo $thread["id"]; ?>">
     </div>
     <div>
