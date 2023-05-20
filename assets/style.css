@@ -10,10 +10,23 @@ html {
 }
 
 /* 上タブ */
+.home-nav-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font: 30px;
+
+}
+
+.home-nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
 nav {
-    background-color: #020f3b;
     padding: 2px;
-    margin-bottom: 50px;
+    margin-bottom: px;
 }
 
 .nav-list {

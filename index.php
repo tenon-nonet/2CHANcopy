@@ -18,10 +18,10 @@ include_once("./app/database/connect.php");
 
 </html>
 <div class="hero">
-    <h1 class="title">SDPs Threads</h1>
+    <h1 class="title">SDPs Threads</h1><style></style>
     <hr>
     <nav>
-        <ul class="nav-list">
+        <ul class="home-nav-list">
             <li><a href="/app/pages/threadPage.php">Go Threads</a></li>
             <li><a href="/app/pages/createThread.php">Create A Thread</a></li>
             <li><a href="/app/pages/threadSearch.php">Search A Thread</a></li>
