@@ -24,10 +24,13 @@ include_once("./app/database/connect.php");
     </nav>
     <hr>
 </header>
+
 <body>
+
 </html>
 <div class="hero">
-    <h1 class="title">SDPs Threads</h1><style></style>
+    <h1 class="title">SDPs Threads</h1>
+    <style></style>
     <hr>
 </div>
 </body>

@@ -1,6 +1,23 @@
 @media screen and (max-width: 480px) {
 
     /* 全体 */
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+
+    .nav-list li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 5px;
+    }
+
+    .nav-list li a:hover {
+        color: #ccc;
+    }
+
     body {
         background-color: #3d31a9;
         background-size: contain;
@@ -83,13 +100,12 @@
 
     .namePost {
         font-size: 5px;
-        width:50px
+        width: 50px
     }
 
-    .buttonPost
-{
-   font-size: 3px;
-}
+    .buttonPost {
+        font-size: 3px;
+    }
 
     .errorMessage {
         color: red;
@@ -117,6 +133,13 @@
         font-size: 8px;
     }
 
-}
+    .createThreadImg {
+        margin-top: 50px;
+        width: 100px;
+    }
 
-/* create page */
+    .searchImg {
+        margin-top: 50px;
+        width: 100px;
+    }
+}

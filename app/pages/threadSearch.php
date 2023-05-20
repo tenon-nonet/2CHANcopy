@@ -29,7 +29,7 @@ include("../../app/functions/thread_add.php");
             </div>
         </div>
         <br>
-       
+
         <input type="submit" value="Search!" name="threadSearchButton">
         <br>
         <input type="submit" value="Random!" name="threadRandomButton">

@@ -15,11 +15,12 @@ include_once("../database/connect.php");
 </head>
 
 <body>
+
 </html>
-    <?php include("../../app/parts/header.php") ?>
-    <?php include("../../app/parts/validation.php") ?>
-    <?php include("../../app/parts/thread.php") ?>
-    <?php include("../../app/parts/newThreadButton.php") ?>
+<?php include("../../app/parts/header.php") ?>
+<?php include("../../app/parts/validation.php") ?>
+<?php include("../../app/parts/thread.php") ?>
+<?php include("../../app/parts/newThreadButton.php") ?>
 </body>
 
 </html>

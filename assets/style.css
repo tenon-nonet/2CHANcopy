@@ -37,7 +37,7 @@ body {
     text-align: center;
     color: #f3eded;
     font-size: 34px;
-    
+
 }
 
 .subTitle {
@@ -130,12 +130,12 @@ section .comment {
     text-decoration: none;
 }
 
-.createThreadImg{
+.createThreadImg {
     margin-top: 50px;
     width: 200px;
 }
 
-.searchImg{
+.searchImg {
     margin-top: 50px;
     width: 200px;
 }
