@@ -88,6 +88,13 @@ section .comment {
     height: 100px;
 }
 
+.buttonPost {
+    margin-top: 10px;
+    background-color: rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
 /* validation.php */
 .errorMessage {
     color: red;

@@ -6,7 +6,7 @@ if (isset($_POST["submitButton"])) {
 ?>
 <form class="formWrapper" method="POST">
     <div>
-        <input class="buttonPost" type="submit" value="Post" name="submitButton">
+        <input class="buttonPost" type="submit" value="Post!" name="submitButton">
         <label>Name</label>
         <style>
             label {

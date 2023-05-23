@@ -3,7 +3,7 @@ $error_message = array();
 
 session_start();
 if (isset($_POST["submitButton"])) {
-    // 名前にゅうりょくチェック
+    // 名前入力チェック
     if (empty($_POST["username"])) {
         $error_message["username"] = "お名前を入力してください";
     } else {
