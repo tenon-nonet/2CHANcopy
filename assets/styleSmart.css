@@ -11,7 +11,7 @@
     .nav-list li a {
         color: #fff;
         text-decoration: none;
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .nav-list li a:hover {
@@ -32,7 +32,7 @@
     .subTitle {
         text-align: center;
         color: #f3eded;
-        font-size: 1px;
+        font-size: 10px;
     }
 
     /* index */
@@ -55,7 +55,7 @@
         align-items: center;
         margin-left: 6px;
         height: 30px;
-        font-size: 3px;
+        font-size: 12px;
     }
 
     .threadTitle h1 {
@@ -72,19 +72,19 @@
         display: flex;
         align-items: center;
         margin-bottom: -14px;
-        font-size: 3px;
+        font-size: 10px;
     }
 
     section .username {
         color: rgb(29, 116, 49);
         font-weight: 700;
-        font-size: 7px;
+        font-size: 12px;
     }
 
     section .comment {
         margin-top: 5px;
         margin-left: 20px;
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .formWrapper {
@@ -99,12 +99,12 @@
     }
 
     .namePost {
-        font-size: 5px;
-        width: 50px
+        font-size: 10px;
+        width: 100px
     }
 
     .buttonPost {
-        font-size: 3px;
+        font-size: 10px;
     }
 
     .errorMessage {
