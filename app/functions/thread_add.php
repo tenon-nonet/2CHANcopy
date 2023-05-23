@@ -53,5 +53,5 @@ if (isset($_POST["threadSubmitButton"])) {
         };
     };
     // 掲示板ページに遷移
-    header("Location: ../../../");
+    header("Location: ./threadPage.php");
 };

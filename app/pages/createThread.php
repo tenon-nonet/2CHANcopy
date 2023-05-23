@@ -40,8 +40,8 @@ include("../../app/functions/thread_add.php");
             </div>
             <textarea name="body" class="commentTextArea"></textarea>
         </div>
-        <input type="submit" value="Create" name="threadSubmitButton">
-        <button><a href="/index.php">Back</a></button>
+        <input type="submit" value="Create" name="threadSubmitButton" >
+        <button><a href="./threadPage.php">Back</a></button>
     </form>
     <img class="createThreadImg" src="https://nonet3.files.wordpress.com/2023/05/00047-2603230323-removebg-preview.png?w=500" alt="画像でない、、">
 </body>
