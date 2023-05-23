@@ -19,7 +19,6 @@ body {
     text-align: center;
     color: #f3eded;
     font-size: 34px;
-
 }
 
 .subTitle {
@@ -36,7 +35,7 @@ body {
     margin: 0 auto;
     border: 1px solid black;
     margin-bottom: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .threadTitle {
@@ -71,7 +70,6 @@ section .username {
 }
 
 section .comment {
-    margin-top: 0;
     margin-left: 20px;
 }
 
@@ -104,7 +102,7 @@ section .comment {
 /* validation.php */
 .errorMessage {
     color: red;
-    margin-left: 70px;
+    margin-left: px;
 }
 
 /* newThreadButton.php */

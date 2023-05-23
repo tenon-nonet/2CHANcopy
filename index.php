@@ -14,7 +14,7 @@
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
     <header class="mb-auto">
-      <ul class="nav justify-content-center" style="font-size: 20px">
+      <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="./app/pages/threadPage.php">
             Go Threads
