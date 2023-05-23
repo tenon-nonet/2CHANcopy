@@ -22,7 +22,7 @@
             </ul>
             <hr>
 
-            <div class="hero">
+            <div class="header">
                 <h1 class="title">
                     <a href="/index.php" style="color: white; text-decoration: none;">
                         SDPs Threads</a></h1>

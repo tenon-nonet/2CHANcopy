@@ -8,7 +8,7 @@ include("../functions/comment_get.php");
             <article>
                 <div class="wrapper">
                     <div class="nameArea">
-                        <span>Name：</span>
+                        <span>Name:</span>
                         <p class="username"><?php echo $comment["username"]; ?></p>
                         </p>
                         <time>：<?php echo $comment["post_date"]; ?><time>

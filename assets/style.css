@@ -14,22 +14,12 @@ body {
     background-size: contain;
 }
 
-.title{
+/* header.php */
+.title {
     text-align: center;
     color: #f3eded;
     font-size: 34px;
 
-}
-
-.hero title h1{
-    text-align: center;
-    color: #f3eded;
-    font-size: 34px;
-
-}
-
-.hero title h1:hover {
-    color: #ccc;
 }
 
 .subTitle {
@@ -38,18 +28,15 @@ body {
     font-size: 15px;
 }
 
+/* thread.php */
 .threadWrapper {
-    background-color: #f3eded;
+    background-color: #b1b1b1;
     padding: 10px;
-    max-width: 1300px;
+    max-width: 80%;
     margin: 0 auto;
     border: 1px solid black;
     margin-bottom: 20px;
-}
-
-.childWrapper {
-    border: 1px solid black;
-    padding: 10px;
+    border-radius: 20px;
 }
 
 .threadTitle {
@@ -63,22 +50,24 @@ body {
 .threadTitle h1 {
     color: rgb(8, 0, 255);
     margin-left: 3px;
-    font-size: 27px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
+/* commentSection.php */
 section {
-    padding: 0 10px;
+    padding: 0 50px;
 }
 
 section .nameArea {
     display: flex;
     align-items: center;
-    margin-bottom: -14px;
+    margin-bottom: 0px;
 }
 
 section .username {
     color: rgb(29, 116, 49);
-    font-weight: 700;
+    font-weight: bold;
 }
 
 section .comment {
@@ -86,47 +75,50 @@ section .comment {
     margin-left: 20px;
 }
 
+/* commentForm.php */
 .formWrapper {
-    padding: 16px;
+    padding: 20px;
     margin-left: 20px;
 }
 
 .commentTextArea {
     margin-top: 10px;
+    width: 70%;
     max-width: 100%;
-    max-height: 100px;
+    height: 100px;
 }
 
+/* validation.php */
 .errorMessage {
     color: red;
     margin-left: 70px;
 }
 
+/* newThreadButton.php */
 .newThreadWrapper {
     background-color: #242753;
     padding: 10px;
-    max-width: 1300px;
+    max-width: 30%;
     margin: 0 auto;
     margin-bottom: 20px;
-}
-
-.newChildThreadWrapper {
     text-align: center;
     padding: 10px;
-    border: 1px solid black;
+    border-radius: 30px;
 }
 
-.newChildThreadWrapper button a {
-    width: 150px;
-    color: black;
+.newThreadWrapper a {
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    border-radius: 30px;
 }
 
+/* createThread page */
 .createThreadImg {
     margin-top: 50px;
     width: 200px;
 }
 
+/* searchThread page */
 .searchImg {
     margin-top: 50px;
     width: 200px;
