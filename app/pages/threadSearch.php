@@ -31,10 +31,8 @@ include("../../app/functions/thread_add.php");
         <br>
 
         <input type="submit" value="Search!" name="threadSearchButton">
-        <br>
         <input type="submit" value="Random!" name="threadRandomButton">
-        <br>
-        <button><a href="/index.php">Back</a></button>
+        <button><a href="./threadPage.php">Back!</a></button>
     </form>
     <img class="searchImg" src="https://nonet3.files.wordpress.com/2023/05/00004-1349217655-removebg-preview-1.png?w=500" alt="">
 </body>

@@ -6,7 +6,6 @@
   <title>SDPs Threads</title>
   <!-- Bootstrap core CSS -->
   <link href=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- Custom styles for this template -->
   <link href="cover.css" rel="stylesheet">
 </head>
 
@@ -31,7 +30,7 @@
     </header>
 
     <main class="px-3">
-      <h1>SDPs Threads</h1><br><br>
+      <h1 class="topText">SDPs Threads</h1><br><br>
       <p class="lead" style="font-size: 15px">
         継続した努力は何にも勝る、<br>
         ゆるがぬ真理である。<br><br>

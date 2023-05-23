@@ -13,7 +13,10 @@ html {
 body {
     background-size: contain;
 }
-
+/* index.php */
+.topText{
+font-size: 100px;
+}
 /* header.php */
 .title {
     text-align: center;
