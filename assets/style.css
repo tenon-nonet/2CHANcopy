@@ -9,26 +9,8 @@ html {
     box-sizing: inherit;
 }
 
-.nav-list {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    font: 18px;
-}
-
-.nav-list li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.nav-list li a:hover {
-    color: #ccc;
-}
-
 /* 掲示板index */
 body {
-    background-color: #3d31a9;
     background-size: contain;
 }
 
@@ -121,7 +103,7 @@ section .comment {
 }
 
 .newThreadWrapper {
-    background-color: #6167db;
+    background-color: #242753;
     padding: 10px;
     max-width: 1300px;
     margin: 0 auto;
