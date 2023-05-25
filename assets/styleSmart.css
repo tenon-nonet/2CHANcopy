@@ -11,16 +11,29 @@
         box-sizing: inherit;
     }
 
-    /* 掲示板index */
+    /* index.php */
     body {
         background-size: contain;
+        background-color: #212529;
+    }
+
+    .titleIndex {
+        font-size: 50px;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .subtitleIndex {
+        color: aliceblue;
+        text-align: center;
+        font-size: 20px;
     }
 
     /* header.php */
     .title {
         text-align: center;
         color: #f3eded;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .subTitle {
@@ -28,7 +41,8 @@
         color: #f3eded;
         font-size: 10px;
     }
-/* thread.php */
+
+    /* thread.php */
     .threadWrapper {
         background-color: #b1b1b1;
         padding: 10px;
@@ -83,14 +97,14 @@
         padding: 20px;
         margin-left: 20px;
     }
-    
+
     .namePost {
         border-radius: 5px;
         width: 100px;
         height: 20px;
         font-size: 10px;
     }
-    
+
     .commentTextArea {
         margin-top: 5px;
         width: 100%;
@@ -107,7 +121,7 @@
         font-size: 10px;
     }
 
-/* validation.php */
+    /* validation.php */
     .errorMessage {
         color: red;
         margin-left: px;
@@ -131,7 +145,7 @@
         font-size: 8px;
     }
 
-/* createThread page */
+    /* createThread page */
     .createThreadImg {
         margin-top: 50px;
         width: 100px;

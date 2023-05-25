@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>SDPs Threads</title>
   <link rel="stylesheet" href="/assets/style.css">
-  <link rel="stylesheet" href="./assets/styleSmart.css">
+  <link rel="stylesheet" href="/assets/styleSmart.css">
 </head>
 
 <body>
