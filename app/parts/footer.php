@@ -6,15 +6,15 @@
 <footer>
     <ul class="footerItems">
         <li class="footerItem">
-            <a href="">
+            <a href="https://github.com/tenon-nonet">
                 GitHub
             </a>
         </li>
         <li class="footerItem">
-            <a href="">HOMEPage</a>
+            <a href="https://tenon-nonet.com/">HOMEPage</a>
         </li>
         <li class="footerItem">
-            <a href="">DDDSpeaker</a>
+            <a href="https://speaker.tenon-nonet.com/">DDDSpeaker</a>
         </li>
     </ul>
 </footer>
