@@ -9,14 +9,24 @@ html {
     box-sizing: inherit;
 }
 
-/* 掲示板index */
+/* index.php */
 body {
     background-size: contain;
+    background-color: #212529;
 }
-/* index.php */
-.topText{
-font-size: 100px;
+
+.titleIndex {
+    font-size: 70px;
+    color: aliceblue;
+    text-align: center;
 }
+
+.subtitleIndex {
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+}
+
 /* header.php */
 .title {
     text-align: center;
@@ -29,6 +39,68 @@ font-size: 100px;
     color: #f3eded;
     font-size: 15px;
 }
+
+/* linkIndex.php */
+.linkIndexItems {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    text-align: center;
+    padding: 0%;
+    width: 100%;
+}
+
+.linkIndexItem {
+    float: center;
+}
+
+.linkIndexItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.linkIndexItem a:hover {
+    background-color: #111;
+}
+
+/* linkIndexの画像 */
+.indexImgA{
+width: 50px;
+position: fixed;
+left: 30%;
+}
+
+
+
+/* indexのfooter */
+.footerItems {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #242753;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footerItem {
+    display: inline;
+    margin: 0 30px;
+}
+
+.footerItem a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footerItem a:hover {
+    color: #dddddd;
+}
+
 
 /* thread.php */
 .threadWrapper {
@@ -100,7 +172,7 @@ section .comment {
     background-color: rgb(70, 70, 70);
     color: rgb(255, 255, 255);
     border-radius: 5px;
-} 
+}
 
 /* validation.php */
 .errorMessage {
