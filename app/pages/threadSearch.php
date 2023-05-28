@@ -42,7 +42,6 @@ include("../functions/comment_delete.php");
                 <span>[Title]</span>
                 <h1><?php echo $row["title"]; ?></h1>
             </div>
-            <?php include("../parts/commentForm.php"); ?>
             <?php
             include("../functions/comment_get.php");
             include("../parts/commentSectionSearch.php");
