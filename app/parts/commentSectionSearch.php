@@ -4,7 +4,7 @@ include("../functions/comment_get.php");
 <section>
     <?php foreach ($comment_array as $comment) : ?>
         <!-- スレッドのidとコメントのthread_idが一致した時 -->
-        <?php if ($thread["id"] == $comment["thread_id"]) : ?>
+        <?php if ($row["id"] == $comment["thread_id"]) : ?>
             <article>
                 <div class="wrapper">
                     <div class="nameArea">

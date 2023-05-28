@@ -1,7 +1,11 @@
 <?php
 include_once("../database/connect.php");
-include("../../app/functions/thread_add.php");
+include("../functions/comment_add.php");
+include("../functions/thread_get.php");
+include("../functions/comment_delete.php");
+
 ?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -17,24 +21,34 @@ include("../../app/functions/thread_add.php");
 <body>
     <?php include("../../app/parts/header.php") ?>
     <?php include("../../app/parts/validation.php") ?>
-
+    <?php include("../../app/functions/thread_search.php"); ?>
     <div style="padding-left: 36px; color: white;">
         <h2 class="threadName" style="margin-top: 20px; margin-bottom: 0;">Search A Thread</h2>
     </div>
-    <form method="POST" class="formWrapper">
-        <div>
-            <div>
-                <label style="color: white;">Thread name</label>
-                <input type="text" name="title">
-            </div>
-        </div>
-        <br>
 
+    <form method="POST">
+        <label style="color: white">Thread name</label>
+        <input type="text" name="title" placeholder="検索ワードを入れてね！">
         <input type="submit" value="Search!" name="threadSearchButton">
-        <input type="submit" value="Random!" name="threadRandomButton">
-        <button><a href="./threadPage.php">Back!</a></button>
     </form>
+
+    <input type="submit" value="Random!" name="threadRandomButton">
+    <button><a href="./threadPage.php">Back!</a></button>
     <img class="searchImg" src="https://nonet3.files.wordpress.com/2023/05/00004-1349217655-removebg-preview-1.png?w=500" alt="">
+
+    <?php foreach ($result as $row) : ?>
+        <div class="threadWrapper">
+            <div class="threadTitle">
+                <span>[Title]</span>
+                <h1><?php echo $row["title"]; ?></h1>
+            </div>
+            <?php include("../parts/commentForm.php"); ?>
+            <?php
+            include("../functions/comment_get.php");
+            include("../parts/commentSectionSearch.php");
+            ?>
+        </div>
+    <?php endforeach; ?>
 </body>
 
 </html>

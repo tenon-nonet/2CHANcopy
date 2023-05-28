@@ -7,7 +7,7 @@ if (isset($_POST["submitButton"])) {
 <form class="formWrapper" method="POST">
     <div>
         <input class="buttonPost" type="submit" value="Post!" name="submitButton">
-        <input placeholder="名前を書いてね！" class="namePost" type="text" name="username" value="<?php if ($thread["id"] == $comment["thread_id"]) echo $_SESSION["username"] ?>">
+        <input placeholder="名前を書いてね！" class="namePost" type="text" name="username" value="<?php if ($thread["id"] == $comment["thread_id"]) echo $_SESSION["username"]; else echo "";?>">
         <input type="hidden" name="threadID" value="<?php echo $thread["id"]; ?>">
     </div>
     <div>
