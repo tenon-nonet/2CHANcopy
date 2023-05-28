@@ -12,6 +12,7 @@ include("../functions/comment_get.php");
                         <p class="username"><?php echo $comment["username"]; ?></p>
                         </p>
                         <time><?php echo $comment["post_date"]; ?><time>
+                        <p> <?php echo $comment["id"]; ?></p>
                     </div>
                     <p class="comment"><?php echo $comment["body"]; ?></p>
                 </div>

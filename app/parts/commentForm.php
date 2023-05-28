@@ -6,18 +6,24 @@ if (isset($_POST["submitButton"])) {
 ?>
 <form class="formWrapper" method="POST">
     <div>
-        <input  class="buttonPost" type="submit" value="Post!" name="submitButton">
+        <input class="buttonPost" type="submit" value="Post!" name="submitButton">
         <input placeholder="名前を書いてね！" class="namePost" type="text" name="username" value="<?php if ($thread["id"] == $comment["thread_id"]) echo $_SESSION["username"] ?>">
-
         <input type="hidden" name="threadID" value="<?php echo $thread["id"]; ?>">
     </div>
     <div>
         <textarea placeholder="コメントを書いてね！" class="commentTextArea" name="body"></textarea>
     </div>
-
     <!-- 位置取得用 -->
     <input type="hidden" name="position" value="0">
 </form>
+<form method="POST">
+    <div>
+        <input type="text" name="id" placeholder="id">
+        <input type="hidden" name="thread_id" value="<?php echo $thread["id"]; ?>">
+        <input type="submit" value="Delete!" name="deleteButton">
+    </div>
+</form>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
     $(document).ready(() => {
